@@ -28,6 +28,8 @@ add_library(
 	${SOURCE_FILES}
 )
 
+target_link_libraries(${PROJECT_NAME}
+	PRIVATE fr_musp)
 
 include(${C74_MIN_API_DIR}/script/min-posttarget.cmake)
 

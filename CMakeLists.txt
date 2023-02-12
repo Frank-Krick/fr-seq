@@ -29,6 +29,8 @@ endif()
 # Misc setup and subroutines
 include(${CMAKE_CURRENT_SOURCE_DIR}/source/min-api/script/min-package.cmake)
 
+# External Libraries
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/source/fr-musp)
 
 # Add the Lib, if it exists
 if (EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/source/min-lib/CMakeLists.txt")

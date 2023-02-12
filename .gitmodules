@@ -4,3 +4,6 @@
 [submodule "source/min-lib"]
 	path = source/min-lib
 	url = https://github.com/Cycling74/min-lib.git
+[submodule "source/fr-musp"]
+	path = source/fr-musp
+	url = https://github.com/Frank-Krick/fr-musp
