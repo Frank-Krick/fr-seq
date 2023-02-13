@@ -7,3 +7,6 @@
 [submodule "source/fr-musp"]
 	path = source/fr-musp
 	url = https://github.com/Frank-Krick/fr-musp
+[submodule "source/fr-tbp"]
+	path = source/fr-tbp
+	url = https://github.com/Frank-Krick/fr-tbp
